@@ -1,0 +1,195 @@
+body{
+  background-color: Mistyrose;
+}
+.container1{
+  text-align:center;
+  background-color: grey;
+  margin-top: 65px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.container {
+  max-width: 1100px;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  line-height: 65px;
+  margin-bottom:50px;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 10px;
+  float:left;
+  position: relative;
+  left:50px;
+
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 25px;
+  font-size:20px;
+
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.container{
+  background-color: Mistyrose;
+  border:2px solid #dee7ec;
+  display:inline;
+}
+.container h1{
+  text-align:center;
+}
+.input{
+  text-align:center;
+}
+.input p{
+  text-align:left;
+  margin-left: 35%;
+}
+input{
+  width:400px;
+  margin-top:2px;
+  margin-bottom:5px;
+  padding: 10px;
+  font-size:15px;
+  border:1px solid #dee7ec;
+  display:inline-block;
+  border-radius:10px;
+}
+button {
+  background-color: #4CAF50;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 45%;
+  float:center;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.signupbtn {
+  float: center;
+  width: 200px;
+}
+
+
+
+
+.btn-wrapper {
+  margin: 20px 0;
+  text-align:center;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+.btn-wrapper a{
+  text-decoration:none;
+}
+footer{
+  color:black;
+  background-color: Aquamarine;
+  text-align: center;
+  margin:10px 0px;
+  height:60px;
+  border-radius:10px;
+  color:#efe5d0;
+  text-align:center;
+  padding:15px
+  font-size:90%;
+}
+footer span{
+  color:black;
+}
+footer ul{
+  text-align:center;
+  display:inline-block;
+  padding: 5px;
+  list-style-type:none;
+  margin:10px;
+  border-radius:10px;
+}
+footer ul li{
+  display:inline;
+
+}
+footer ul li a{
+  text-decoration:none;
+  font-family:Arial;
+  padding:.2em 1em;
+  background-color:Aquamarine;
+  color:black;
+}
+footer ul li a:hover{
+  color:white;
+  background-color: black;
+}

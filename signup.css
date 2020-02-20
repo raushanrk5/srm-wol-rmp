@@ -1,0 +1,171 @@
+body{
+  background-color: Mistyrose;
+}
+.container1{
+  text-align:center;
+  background-color: grey;
+  background-image: url("./images/project5.pg");
+  background-size: cover;
+  margin-top: 65px;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  margin-bottom:50px;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 20px;
+  float:left;
+  position: relative;
+  bottom:22px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  font-size:20px;
+  position: relative;
+  bottom:15px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+  input[type=text], input[type=password] {
+  width: 400px;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius:10px;
+}
+.input{
+  text-align:center;
+}
+.input Label{
+  float:left;
+  margin-left:35%;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 45%;
+  float:center;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.signupbtn {
+  float: center;
+  width: 200px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+footer{
+  color:black;
+  background-color: Aquamarine;
+  text-align: center;
+  margin:10px 0px;
+  height:60px;
+  border-radius:10px;
+  color:#efe5d0;
+  text-align:center;
+  padding:15px
+  font-size:90%;
+}
+footer span{
+  color:black;
+}
+footer ul{
+  text-align:center;
+  display:inline-block;
+  padding: 5px;
+  list-style-type:none;
+  margin:10px;
+  border-radius:10px;
+}
+footer ul li{
+  display:inline;
+
+}
+footer ul li a{
+  text-decoration:none;
+  font-family:Arial;
+  padding:.2em 1em;
+  background-color:Aquamarine;
+  color:black;
+}
+footer ul li a:hover{
+  color:white;
+  background-color: black;
+}

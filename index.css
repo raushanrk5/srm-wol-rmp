@@ -1,0 +1,454 @@
+html{
+  scroll-behavior: smooth;
+}
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif helvetica monospace;
+  color: gray;
+  background-color: GRAY;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top {
+  padding: 150px 0 250px 0;
+  background-image: url("https://i.pinimg.com/originals/47/01/b6/4701b62972f7b4b42fff4dda761b7b3a.jpg");
+  width: 100%;
+  background-size: cover;
+  color: white;
+  margin-top:65px;
+}
+
+.top h1 {
+  font-weight: 900;
+  font-family: helvetica;
+  opacity: 1;
+  position:relative;
+  bottom:230px;
+  text-align:center;
+  color: white;
+  padding-top:50px;
+  font-size: 70px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+.top h2{
+  opacity:0.7;
+  position: relative;
+  bottom: 250px;
+  text-align:center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: monospace;
+}
+
+.top p {
+  opacity: 0.7;
+  margin-bottom: 0px;
+  position: relative;
+  top:180px;
+  text-align :center;
+  font-size:20px;
+
+}
+
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  line-height: 65px;
+}
+
+.logo {
+  width: 200px;
+  margin-top:10px;
+  float:left;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  font-size: 20px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.signup-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: 0.3s ease-in-out;
+}
+
+.lesson-wrapper {
+  background-color: #f7f7f7;
+  text-align: left;
+}
+.lesson-wrapper img{
+  width:500px;
+  height:500px;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #1a1a1a;
+  font-size:35px;
+}
+
+.heading h1 {
+  font-weight: normal;
+}
+
+
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+#where{
+  font-size: 18px;
+  text-align: justify;
+  padding: 10px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+
+}
+#where p{
+  text-align: justify;
+}
+
+#what
+{
+    font-size:30px;
+    background-image:url(https://wallpapercave.com/wp/wp2406516.jpg);
+    background-size:cover;
+
+}
+#what h1{
+  color:white;
+  text-align: center;
+  position: relative;
+  font-size:50px;
+  top:50px;
+}
+.courses img{
+    width:100%;
+}
+.courses h1{
+    position:relative;
+    text-align:center;
+
+}
+.courses{
+    display:flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10%;
+     font-size:12px;
+    font-weight:normal
+}
+
+
+.course{
+    width:50%;
+    padding:10px;
+    margin:10px;
+    color:white;
+
+    font-weight:normal;
+
+}
+.course p{
+  font-size: 18px;
+  margin-top: 10px;
+}
+.course li{
+  display: inline-flex;
+  margin-right: 5px;
+}
+ul{
+  list-style:disc;
+}
+
+#large{
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  opacity: 0.6;
+}
